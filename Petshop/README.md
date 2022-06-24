@@ -4,4 +4,4 @@ rodar o json server:
 json-server --watch db.json
 ```
 
-Rodar: browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
+Rodar: browser-sync start --server --file . --host --port 5000 --startPath Petshop/telas/lista_cliente.html
