@@ -1,7 +1,7 @@
 {
   "name": "admin",
   "version": "1.0.0",
-  "description": "",
+  "description": "abrir a pasta admin no vscode e  rodar o json server:  ```js json-server --watch db.json ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.2"
-  }
+  },
+  "devDependencies": {}
 }
