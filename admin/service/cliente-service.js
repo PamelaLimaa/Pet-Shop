@@ -3,17 +3,18 @@ const listaClientes = () =>  {
     .then(resposta => {
         return resposta.json()
     })
+    .then(resposta => {console.log(resposta.body)})
 }
 
 const criaCliente = (nome, email) => {
-    return fetch(`http://localhost:3000/`, {
+    return fetch(`http://localhost:3000/profile`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            nome,
-            email
+            nome:nome,
+            email:email
         })
     })
     .then(resposta => {
