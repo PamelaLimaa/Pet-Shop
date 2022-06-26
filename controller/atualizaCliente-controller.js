@@ -13,6 +13,7 @@ clienteService.detalhaCliente(id)
   inputEmail.value = dados.email
 })
 
+
 const formulario = document.querySelector('[data-form]')
 
 formulario.addEventListener('submit', (evento) => {
